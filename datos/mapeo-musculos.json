@@ -1,0 +1,6398 @@
+{
+ "grupos": [
+  "pecho",
+  "hombros",
+  "espalda",
+  "biceps",
+  "triceps",
+  "antebrazos",
+  "core",
+  "lumbares",
+  "cuadriceps",
+  "femorales",
+  "gluteos",
+  "abductores",
+  "pantorrillas",
+  "aductores"
+ ],
+ "nota_lados": "izq/der = lado del sujeto (anatomico), segun sufijo .l/.r de Z-Anatomy",
+ "objetos": {
+  "(Abdominal part of pectoralis major muscle).l": {
+   "grupo": "pecho",
+   "lado": "izq",
+   "regla": "pectoralis major",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1508,
+   "cx": 0.1151
+  },
+  "(Abdominal part of pectoralis major muscle).r": {
+   "grupo": "pecho",
+   "lado": "der",
+   "regla": "pectoralis major",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1508,
+   "cx": -0.1151
+  },
+  "(Adductor minimus).l": {
+   "grupo": "aductores",
+   "lado": "izq",
+   "regla": "adductor (longus|brevis|magnus|minimus)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 948,
+   "cx": 0.0782
+  },
+  "(Adductor minimus).r": {
+   "grupo": "aductores",
+   "lado": "der",
+   "regla": "adductor (longus|brevis|magnus|minimus)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 948,
+   "cx": -0.0782
+  },
+  "(Iliopectineal bursa).l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.082
+  },
+  "(Iliopectineal bursa).r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.082
+  },
+  "(Opponens digiti minimi muscle of foot).l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 236,
+   "cx": 0.118
+  },
+  "(Opponens digiti minimi muscle of foot).r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 236,
+   "cx": -0.118
+  },
+  "Abductor digiti minimi of foot.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1280,
+   "cx": 0.1055
+  },
+  "Abductor digiti minimi of foot.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1280,
+   "cx": -0.1055
+  },
+  "Abductor digiti minimi of hand.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 672,
+   "cx": 0.2357
+  },
+  "Abductor digiti minimi of hand.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 672,
+   "cx": -0.2357
+  },
+  "Abductor hallucis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "abductor hallucis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1688,
+   "cx": 0.0626
+  },
+  "Abductor hallucis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "abductor hallucis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1688,
+   "cx": -0.0626
+  },
+  "Abductor pollicis brevis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "abductor pollicis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 624,
+   "cx": 0.2881
+  },
+  "Abductor pollicis brevis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "abductor pollicis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 624,
+   "cx": -0.2881
+  },
+  "Abductor pollicis longus.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "abductor pollicis longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2462,
+   "cx": 0.2601
+  },
+  "Abductor pollicis longus.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "abductor pollicis longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2462,
+   "cx": -0.2601
+  },
+  "Acromial part of deltoid muscle.l": {
+   "grupo": "hombros",
+   "lado": "izq",
+   "regla": "deltoid muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2964,
+   "cx": 0.2037
+  },
+  "Acromial part of deltoid muscle.r": {
+   "grupo": "hombros",
+   "lado": "der",
+   "regla": "deltoid muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2964,
+   "cx": -0.2037
+  },
+  "Adductor brevis.l": {
+   "grupo": "aductores",
+   "lado": "izq",
+   "regla": "adductor (longus|brevis|magnus|minimus)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2132,
+   "cx": 0.0712
+  },
+  "Adductor brevis.r": {
+   "grupo": "aductores",
+   "lado": "der",
+   "regla": "adductor (longus|brevis|magnus|minimus)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2132,
+   "cx": -0.0712
+  },
+  "Adductor longus.l": {
+   "grupo": "aductores",
+   "lado": "izq",
+   "regla": "adductor (longus|brevis|magnus|minimus)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3714,
+   "cx": 0.0574
+  },
+  "Adductor longus.r": {
+   "grupo": "aductores",
+   "lado": "der",
+   "regla": "adductor (longus|brevis|magnus|minimus)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3714,
+   "cx": -0.0574
+  },
+  "Adductor magnus.l": {
+   "grupo": "aductores",
+   "lado": "izq",
+   "regla": "adductor (longus|brevis|magnus|minimus)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 8192,
+   "cx": 0.0628
+  },
+  "Adductor magnus.r": {
+   "grupo": "aductores",
+   "lado": "der",
+   "regla": "adductor (longus|brevis|magnus|minimus)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 8192,
+   "cx": -0.0628
+  },
+  "Anconeus muscle.l": {
+   "grupo": "triceps",
+   "lado": "izq",
+   "regla": "anconeus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1442,
+   "cx": 0.2262
+  },
+  "Anconeus muscle.r": {
+   "grupo": "triceps",
+   "lado": "der",
+   "regla": "anconeus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1442,
+   "cx": -0.2262
+  },
+  "Anserine bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 120,
+   "cx": 0.0544
+  },
+  "Anserine bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 120,
+   "cx": -0.0544
+  },
+  "Antebrachial fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4460,
+   "cx": 0.2383
+  },
+  "Antebrachial fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4460,
+   "cx": -0.2383
+  },
+  "Anterior belly of digastric muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "digastric",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 392,
+   "cx": 0.0099
+  },
+  "Anterior belly of digastric muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "digastric",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 392,
+   "cx": -0.0099
+  },
+  "Anterior intermuscular septum of leg.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 208,
+   "cx": 0.1137
+  },
+  "Anterior intermuscular septum of leg.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 208,
+   "cx": -0.1137
+  },
+  "Anterior layer of thoracolumbar fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 176,
+   "cx": 0.0471
+  },
+  "Anterior layer of thoracolumbar fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 176,
+   "cx": -0.0471
+  },
+  "Ary-epiglottic part of oblique arytenoid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1022,
+   "cx": 0.0069
+  },
+  "Ary-epiglottic part of oblique arytenoid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1022,
+   "cx": -0.0069
+  },
+  "Ascending part of trapezius muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "trapezius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4596,
+   "cx": 0.0344
+  },
+  "Ascending part of trapezius muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "trapezius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4596,
+   "cx": -0.0344
+  },
+  "Bicipitoradial bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.2387
+  },
+  "Bicipitoradial bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.2387
+  },
+  "Body of sternum": {
+   "grupo": "base_huesos",
+   "lado": "centro",
+   "regla": "body of sternum",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 4466,
+   "cx": -0.0
+  },
+  "Brachial fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3018,
+   "cx": 0.2009
+  },
+  "Brachial fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3018,
+   "cx": -0.2009
+  },
+  "Brachialis muscle.l": {
+   "grupo": "biceps",
+   "lado": "izq",
+   "regla": "^brachialis muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3478,
+   "cx": 0.2151
+  },
+  "Brachialis muscle.r": {
+   "grupo": "biceps",
+   "lado": "der",
+   "regla": "^brachialis muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3478,
+   "cx": -0.2151
+  },
+  "Brachioradialis muscle.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "brachioradialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7312,
+   "cx": 0.258
+  },
+  "Brachioradialis muscle.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "brachioradialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7312,
+   "cx": -0.258
+  },
+  "Bucinator.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "bucinator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 884,
+   "cx": 0.0316
+  },
+  "Bucinator.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "bucinator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 884,
+   "cx": -0.0316
+  },
+  "Bursa of piriformis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1235
+  },
+  "Bursa of piriformis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1235
+  },
+  "Calcaneal tendon.l": {
+   "grupo": "pantorrillas",
+   "lado": "izq",
+   "regla": "calcaneal tendon",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4377,
+   "cx": 0.0776
+  },
+  "Calcaneal tendon.r": {
+   "grupo": "pantorrillas",
+   "lado": "der",
+   "regla": "calcaneal tendon",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4377,
+   "cx": -0.0776
+  },
+  "Calcaneus.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(calcaneus|talus|navicular|cuboid)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1448,
+   "cx": 0.0795
+  },
+  "Calcaneus.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(calcaneus|talus|navicular|cuboid)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1448,
+   "cx": -0.0795
+  },
+  "Capitate bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 472,
+   "cx": 0.2647
+  },
+  "Capitate bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 472,
+   "cx": -0.2647
+  },
+  "Clavicle.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^clavicle",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1550,
+   "cx": 0.0824
+  },
+  "Clavicle.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^clavicle",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1550,
+   "cx": -0.0824
+  },
+  "Clavicular head of pectoralis major muscle.l": {
+   "grupo": "pecho",
+   "lado": "izq",
+   "regla": "pectoralis major",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 850,
+   "cx": 0.1154
+  },
+  "Clavicular head of pectoralis major muscle.r": {
+   "grupo": "pecho",
+   "lado": "der",
+   "regla": "pectoralis major",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 850,
+   "cx": -0.1154
+  },
+  "Clavicular part of deltoid muscle.l": {
+   "grupo": "hombros",
+   "lado": "izq",
+   "regla": "deltoid muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2902,
+   "cx": 0.1597
+  },
+  "Clavicular part of deltoid muscle.r": {
+   "grupo": "hombros",
+   "lado": "der",
+   "regla": "deltoid muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2902,
+   "cx": -0.1597
+  },
+  "Clavipectoral fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1280,
+   "cx": 0.1195
+  },
+  "Clavipectoral fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1280,
+   "cx": -0.1195
+  },
+  "Coccygeus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1034,
+   "cx": 0.0224
+  },
+  "Coccygeus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1034,
+   "cx": -0.0224
+  },
+  "Common flexor tendon sheath.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 864,
+   "cx": 0.2594
+  },
+  "Common flexor tendon sheath.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 864,
+   "cx": -0.2594
+  },
+  "Common tendinous ring.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 362,
+   "cx": 0.0161
+  },
+  "Common tendinous ring.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 362,
+   "cx": -0.0161
+  },
+  "Common tendon sheath of fibularis muscles.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 384,
+   "cx": 0.0973
+  },
+  "Common tendon sheath of fibularis muscles.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 384,
+   "cx": -0.0973
+  },
+  "Coracobrachial bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.148
+  },
+  "Coracobrachial bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.148
+  },
+  "Coracobrachialis muscle.l": {
+   "grupo": "biceps",
+   "lado": "izq",
+   "regla": "coracobrachialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1160,
+   "cx": 0.1649
+  },
+  "Coracobrachialis muscle.r": {
+   "grupo": "biceps",
+   "lado": "der",
+   "regla": "coracobrachialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1160,
+   "cx": -0.1649
+  },
+  "Corrugator supercilii.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "corrugator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 278,
+   "cx": 0.0213
+  },
+  "Corrugator supercilii.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "corrugator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 278,
+   "cx": -0.0213
+  },
+  "Cruciform part of fibrous sheath of digit of hand.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 282,
+   "cx": 0.2769
+  },
+  "Cruciform part of fibrous sheath of digit of hand.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 282,
+   "cx": -0.2769
+  },
+  "Crural fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 10875,
+   "cx": 0.0868
+  },
+  "Crural fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 10875,
+   "cx": -0.0868
+  },
+  "Cuboid bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(calcaneus|talus|navicular|cuboid)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 998,
+   "cx": 0.096
+  },
+  "Cuboid bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(calcaneus|talus|navicular|cuboid)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 998,
+   "cx": -0.096
+  },
+  "Deep head of flexor pollicis brevis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "flexor pollicis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 746,
+   "cx": 0.2895
+  },
+  "Deep head of flexor pollicis brevis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "flexor pollicis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 746,
+   "cx": -0.2895
+  },
+  "Deep head of pronator teres.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "pronator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1114,
+   "cx": 0.2443
+  },
+  "Deep head of pronator teres.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "pronator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1114,
+   "cx": -0.2443
+  },
+  "Deep infrapatellar bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": 0.0864
+  },
+  "Deep infrapatellar bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": -0.0864
+  },
+  "Deep part of masseter.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "masseter",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 994,
+   "cx": 0.049
+  },
+  "Deep part of masseter.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "masseter",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 994,
+   "cx": -0.049
+  },
+  "Deltoid fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3541,
+   "cx": 0.1908
+  },
+  "Deltoid fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3541,
+   "cx": -0.1908
+  },
+  "Depressor anguli oris.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "depressor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 594,
+   "cx": 0.0237
+  },
+  "Depressor anguli oris.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "depressor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 594,
+   "cx": -0.0237
+  },
+  "Depressor labii inferioris.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "depressor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 832,
+   "cx": 0.0186
+  },
+  "Depressor labii inferioris.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "depressor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 832,
+   "cx": -0.0186
+  },
+  "Depressor septi nasi.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "depressor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 276,
+   "cx": 0.0062
+  },
+  "Depressor septi nasi.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "depressor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 276,
+   "cx": -0.0062
+  },
+  "Descending part of trapezius muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "trapezius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6760,
+   "cx": 0.0383
+  },
+  "Descending part of trapezius muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "trapezius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6760,
+   "cx": -0.0383
+  },
+  "Diaphragm": {
+   "grupo": "excluido",
+   "lado": "centro",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 9592,
+   "cx": -0.0042
+  },
+  "Diaphragmatic fascia": {
+   "grupo": "excluido",
+   "lado": "centro",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4708,
+   "cx": -0.0032
+  },
+  "Distal phalanx of fifth finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 236,
+   "cx": 0.1427
+  },
+  "Distal phalanx of fifth finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 236,
+   "cx": -0.1427
+  },
+  "Distal phalanx of fifth finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 192,
+   "cx": 0.2302
+  },
+  "Distal phalanx of fifth finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 192,
+   "cx": -0.2302
+  },
+  "Distal phalanx of first finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 466,
+   "cx": 0.0814
+  },
+  "Distal phalanx of first finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 466,
+   "cx": -0.0814
+  },
+  "Distal phalanx of first finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 222,
+   "cx": 0.3275
+  },
+  "Distal phalanx of first finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 222,
+   "cx": -0.3275
+  },
+  "Distal phalanx of fourth finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 278,
+   "cx": 0.1324
+  },
+  "Distal phalanx of fourth finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 278,
+   "cx": -0.1324
+  },
+  "Distal phalanx of fourth finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 134,
+   "cx": 0.2579
+  },
+  "Distal phalanx of fourth finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 134,
+   "cx": -0.2579
+  },
+  "Distal phalanx of second finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 236,
+   "cx": 0.1042
+  },
+  "Distal phalanx of second finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 236,
+   "cx": -0.1042
+  },
+  "Distal phalanx of second finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 250,
+   "cx": 0.3167
+  },
+  "Distal phalanx of second finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 250,
+   "cx": -0.3167
+  },
+  "Distal phalanx of third finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 318,
+   "cx": 0.1192
+  },
+  "Distal phalanx of third finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 318,
+   "cx": -0.1192
+  },
+  "Distal phalanx of third finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 192,
+   "cx": 0.2855
+  },
+  "Distal phalanx of third finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 192,
+   "cx": -0.2855
+  },
+  "Dorsal fascia of hand.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1445,
+   "cx": 0.2766
+  },
+  "Dorsal fascia of hand.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1445,
+   "cx": -0.2766
+  },
+  "Dorsal interossei muscles of foot.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1946,
+   "cx": 0.103
+  },
+  "Dorsal interossei muscles of foot.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1946,
+   "cx": -0.103
+  },
+  "Dorsal interossei muscles of hand.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1364,
+   "cx": 0.2766
+  },
+  "Dorsal interossei muscles of hand.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1364,
+   "cx": -0.2766
+  },
+  "Dorsal parts of lateral intertransversarii lumborum muscles.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "intertransversarii lumborum",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 720,
+   "cx": 0.0347
+  },
+  "Dorsal parts of lateral intertransversarii lumborum muscles.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "intertransversarii lumborum",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 720,
+   "cx": -0.0347
+  },
+  "Epicranial aponeurosis.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 20118,
+   "cx": 0.0318
+  },
+  "Epicranial aponeurosis.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 20118,
+   "cx": -0.0318
+  },
+  "Extensor carpi radialis brevis.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "extensor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3142,
+   "cx": 0.2612
+  },
+  "Extensor carpi radialis brevis.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "extensor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3142,
+   "cx": -0.2612
+  },
+  "Extensor carpi radialis longus.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "extensor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3706,
+   "cx": 0.2644
+  },
+  "Extensor carpi radialis longus.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "extensor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3706,
+   "cx": -0.2644
+  },
+  "Extensor digiti minimi.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "extensor digiti minimi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2152,
+   "cx": 0.2441
+  },
+  "Extensor digiti minimi.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "extensor digiti minimi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2152,
+   "cx": -0.2441
+  },
+  "Extensor digitorum brevis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "extensor digitorum brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3184,
+   "cx": 0.1047
+  },
+  "Extensor digitorum brevis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "extensor digitorum brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3184,
+   "cx": -0.1047
+  },
+  "Extensor digitorum longus.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "extensor digitorum longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3176,
+   "cx": 0.1078
+  },
+  "Extensor digitorum longus.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "extensor digitorum longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3176,
+   "cx": -0.1078
+  },
+  "Extensor digitorum.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "^extensor digitorum$",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6410,
+   "cx": 0.2606
+  },
+  "Extensor digitorum.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "^extensor digitorum$",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6410,
+   "cx": -0.2606
+  },
+  "Extensor hallucis brevis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "extensor hallucis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1118,
+   "cx": 0.0852
+  },
+  "Extensor hallucis brevis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "extensor hallucis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1118,
+   "cx": -0.0852
+  },
+  "Extensor hallucis longus.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "extensor hallucis longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2362,
+   "cx": 0.0928
+  },
+  "Extensor hallucis longus.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "extensor hallucis longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2362,
+   "cx": -0.0928
+  },
+  "Extensor indicis.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "extensor indicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1142,
+   "cx": 0.2659
+  },
+  "Extensor indicis.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "extensor indicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1142,
+   "cx": -0.2659
+  },
+  "Extensor pollicis brevis.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "extensor pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1176,
+   "cx": 0.2741
+  },
+  "Extensor pollicis brevis.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "extensor pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1176,
+   "cx": -0.2741
+  },
+  "Extensor pollicis longus.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "extensor pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1602,
+   "cx": 0.2697
+  },
+  "Extensor pollicis longus.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "extensor pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1602,
+   "cx": -0.2697
+  },
+  "Extensor retinaculum of wrist.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 146,
+   "cx": 0.2632
+  },
+  "Extensor retinaculum of wrist.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 146,
+   "cx": -0.2632
+  },
+  "External abdominal oblique muscle.l": {
+   "grupo": "core",
+   "lado": "izq",
+   "regla": "abdominal oblique",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 29622,
+   "cx": 0.0678
+  },
+  "External abdominal oblique muscle.r": {
+   "grupo": "core",
+   "lado": "der",
+   "regla": "abdominal oblique",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 29622,
+   "cx": -0.0678
+  },
+  "External anal sphincter.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 202,
+   "cx": 0.0047
+  },
+  "External anal sphincter.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 202,
+   "cx": -0.0047
+  },
+  "External intercostal muscles.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "external intercostal",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 41410,
+   "cx": 0.0968
+  },
+  "External intercostal muscles.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "external intercostal",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 41410,
+   "cx": -0.0968
+  },
+  "External part of thyro-arytenoid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2236,
+   "cx": 0.0057
+  },
+  "External part of thyro-arytenoid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2236,
+   "cx": -0.0057
+  },
+  "Fascia lata.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 12907,
+   "cx": 0.074
+  },
+  "Fascia lata.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 12907,
+   "cx": -0.074
+  },
+  "Fibularis brevis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "fibularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3446,
+   "cx": 0.1048
+  },
+  "Fibularis brevis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "fibularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3446,
+   "cx": -0.1048
+  },
+  "Fibularis longus muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "fibularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5522,
+   "cx": 0.1124
+  },
+  "Fibularis longus muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "fibularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5522,
+   "cx": -0.1124
+  },
+  "Fibularis tertius muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "fibularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 586,
+   "cx": 0.1046
+  },
+  "Fibularis tertius muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "fibularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 586,
+   "cx": -0.1046
+  },
+  "Fifth metacarpal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 512,
+   "cx": 0.2434
+  },
+  "Fifth metacarpal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 512,
+   "cx": -0.2434
+  },
+  "Fifth metatarsal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 894,
+   "cx": 0.119
+  },
+  "Fifth metatarsal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 894,
+   "cx": -0.119
+  },
+  "First metacarpal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 682,
+   "cx": 0.3032
+  },
+  "First metacarpal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 682,
+   "cx": -0.3032
+  },
+  "First metatarsal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1088,
+   "cx": 0.072
+  },
+  "First metatarsal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1088,
+   "cx": -0.072
+  },
+  "Flexor carpi radialis.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "flexor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1666,
+   "cx": 0.2303
+  },
+  "Flexor carpi radialis.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "flexor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1666,
+   "cx": -0.2303
+  },
+  "Flexor digiti minimi of foot.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 464,
+   "cx": 0.122
+  },
+  "Flexor digiti minimi of foot.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 464,
+   "cx": -0.122
+  },
+  "Flexor digiti minimi of hand.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 308,
+   "cx": 0.2408
+  },
+  "Flexor digiti minimi of hand.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 308,
+   "cx": -0.2408
+  },
+  "Flexor digitorum brevis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "flexor digitorum brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3224,
+   "cx": 0.099
+  },
+  "Flexor digitorum brevis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "flexor digitorum brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3224,
+   "cx": -0.099
+  },
+  "Flexor digitorum longus.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "flexor digitorum longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6836,
+   "cx": 0.0821
+  },
+  "Flexor digitorum longus.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "flexor digitorum longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6836,
+   "cx": -0.0821
+  },
+  "Flexor digitorum profundus.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "flexor digitorum profundus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7110,
+   "cx": 0.2521
+  },
+  "Flexor digitorum profundus.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "flexor digitorum profundus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7110,
+   "cx": -0.2521
+  },
+  "Flexor hallucis longus.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "flexor hallucis longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5878,
+   "cx": 0.0856
+  },
+  "Flexor hallucis longus.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "flexor hallucis longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5878,
+   "cx": -0.0856
+  },
+  "Flexor pollicis longus.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "flexor pollicis longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1666,
+   "cx": 0.2712
+  },
+  "Flexor pollicis longus.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "flexor pollicis longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1666,
+   "cx": -0.2712
+  },
+  "Flexor retinaculum of ankle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 298,
+   "cx": 0.0541
+  },
+  "Flexor retinaculum of ankle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 298,
+   "cx": -0.0541
+  },
+  "Flexor retinaculum of wrist.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 215,
+   "cx": 0.2614
+  },
+  "Flexor retinaculum of wrist.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 215,
+   "cx": -0.2614
+  },
+  "Fourth metacarpal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 642,
+   "cx": 0.2567
+  },
+  "Fourth metacarpal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 642,
+   "cx": -0.2567
+  },
+  "Fourth metatarsal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 834,
+   "cx": 0.1075
+  },
+  "Fourth metatarsal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 834,
+   "cx": -0.1075
+  },
+  "Frontal bone": {
+   "grupo": "base_huesos",
+   "lado": "centro",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 7776,
+   "cx": -0.0
+  },
+  "Frontalis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "frontalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5874,
+   "cx": 0.0294
+  },
+  "Frontalis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "frontalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5874,
+   "cx": -0.0294
+  },
+  "Genioglossus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3746,
+   "cx": 0.0049
+  },
+  "Genioglossus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3746,
+   "cx": -0.0049
+  },
+  "Geniohyoid muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "geniohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 530,
+   "cx": 0.0051
+  },
+  "Geniohyoid muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "geniohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 530,
+   "cx": -0.0051
+  },
+  "Gluteus maximus muscle.l": {
+   "grupo": "gluteos",
+   "lado": "izq",
+   "regla": "gluteus maximus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3326,
+   "cx": 0.0777
+  },
+  "Gluteus maximus muscle.r": {
+   "grupo": "gluteos",
+   "lado": "der",
+   "regla": "gluteus maximus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3326,
+   "cx": -0.0777
+  },
+  "Gluteus medius muscle.l": {
+   "grupo": "abductores",
+   "lado": "izq",
+   "regla": "gluteus medius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5176,
+   "cx": 0.1164
+  },
+  "Gluteus medius muscle.r": {
+   "grupo": "abductores",
+   "lado": "der",
+   "regla": "gluteus medius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5176,
+   "cx": -0.1164
+  },
+  "Gluteus minimus muscle.l": {
+   "grupo": "abductores",
+   "lado": "izq",
+   "regla": "gluteus minimus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6250,
+   "cx": 0.1194
+  },
+  "Gluteus minimus muscle.r": {
+   "grupo": "abductores",
+   "lado": "der",
+   "regla": "gluteus minimus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6250,
+   "cx": -0.1194
+  },
+  "Gracilis muscle.l": {
+   "grupo": "aductores",
+   "lado": "izq",
+   "regla": "gracilis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4812,
+   "cx": 0.026
+  },
+  "Gracilis muscle.r": {
+   "grupo": "aductores",
+   "lado": "der",
+   "regla": "gracilis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4812,
+   "cx": -0.026
+  },
+  "Hamate bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 536,
+   "cx": 0.2534
+  },
+  "Hamate bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 536,
+   "cx": -0.2534
+  },
+  "Humeral head of extensor carpi ulnaris.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "extensor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 830,
+   "cx": 0.2368
+  },
+  "Humeral head of extensor carpi ulnaris.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "extensor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 830,
+   "cx": -0.2368
+  },
+  "Humeral head of flexor carpi ulnaris.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "flexor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3912,
+   "cx": 0.2114
+  },
+  "Humeral head of flexor carpi ulnaris.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "flexor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3912,
+   "cx": -0.2114
+  },
+  "Humero-ulnar head of flexor digitorum superficialis.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "flexor digitorum superficialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 12798,
+   "cx": 0.2396
+  },
+  "Humero-ulnar head of flexor digitorum superficialis.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "flexor digitorum superficialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 12798,
+   "cx": -0.2396
+  },
+  "Hyoglossus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1424,
+   "cx": 0.0099
+  },
+  "Hyoglossus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1424,
+   "cx": -0.0099
+  },
+  "Iliacus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4354,
+   "cx": 0.0863
+  },
+  "Iliacus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4354,
+   "cx": -0.0863
+  },
+  "Iliococcygeus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1962,
+   "cx": 0.0284
+  },
+  "Iliococcygeus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1962,
+   "cx": -0.0284
+  },
+  "Iliocostalis colli muscle": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "iliocostalis colli",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2050,
+   "cx": 0.0536,
+   "lado_por_posicion": true
+  },
+  "Iliocostalis colli muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "iliocostalis colli",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2050,
+   "cx": -0.0536
+  },
+  "Iliocostalis lumborum muscle.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "iliocostalis (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 10038,
+   "cx": 0.0561
+  },
+  "Iliocostalis lumborum muscle.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "iliocostalis (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 10038,
+   "cx": -0.0561
+  },
+  "Iliocostalis thoracis muscle.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "iliocostalis (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5772,
+   "cx": 0.0696
+  },
+  "Iliocostalis thoracis muscle.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "iliocostalis (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5772,
+   "cx": -0.0696
+  },
+  "Iliopectineal arch.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 26,
+   "cx": 0.0583
+  },
+  "Iliopectineal arch.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 26,
+   "cx": -0.0583
+  },
+  "Iliopsoas fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1602,
+   "cx": 0.0601
+  },
+  "Iliopsoas fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1602,
+   "cx": -0.06
+  },
+  "Iliotibial tract.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "iliotibial tract",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 48612,
+   "cx": 0.138
+  },
+  "Iliotibial tract.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "iliotibial tract",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 48612,
+   "cx": -0.138
+  },
+  "Inferior extensor retinaculum of ankle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 119,
+   "cx": 0.0884
+  },
+  "Inferior extensor retinaculum of ankle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 119,
+   "cx": -0.0884
+  },
+  "Inferior fibular retinaculum.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 35,
+   "cx": 0.111
+  },
+  "Inferior fibular retinaculum.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 35,
+   "cx": -0.111
+  },
+  "Inferior gemellus muscle.l": {
+   "grupo": "gluteos",
+   "lado": "izq",
+   "regla": "gemellus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 976,
+   "cx": 0.0809
+  },
+  "Inferior gemellus muscle.r": {
+   "grupo": "gluteos",
+   "lado": "der",
+   "regla": "gemellus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 976,
+   "cx": -0.0809
+  },
+  "Inferior head of lateral pterygoid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 326,
+   "cx": 0.0326
+  },
+  "Inferior head of lateral pterygoid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 326,
+   "cx": -0.0326
+  },
+  "Inferior oblique muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1148,
+   "cx": 0.0332
+  },
+  "Inferior oblique muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1148,
+   "cx": -0.0332
+  },
+  "Inferior pharyngeal constrictor.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3696,
+   "cx": 0.0105
+  },
+  "Inferior pharyngeal constrictor.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3696,
+   "cx": -0.0105
+  },
+  "Inferior rectus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1736,
+   "cx": 0.0249
+  },
+  "Inferior rectus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1736,
+   "cx": -0.0249
+  },
+  "Inferior subtendinous bursa of biceps femoris muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": 0.12
+  },
+  "Inferior subtendinous bursa of biceps femoris muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": -0.12
+  },
+  "Inferior tarsus.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 108,
+   "cx": 0.0315
+  },
+  "Inferior tarsus.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 108,
+   "cx": -0.0315
+  },
+  "Infraspinatus muscle.l": {
+   "grupo": "hombros",
+   "lado": "izq",
+   "regla": "infraspinatus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3166,
+   "cx": 0.1289
+  },
+  "Infraspinatus muscle.r": {
+   "grupo": "hombros",
+   "lado": "der",
+   "regla": "infraspinatus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3166,
+   "cx": -0.1289
+  },
+  "Inguinal ligament.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1056,
+   "cx": 0.0776
+  },
+  "Inguinal ligament.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1056,
+   "cx": -0.0776
+  },
+  "Innermost intercostal muscles.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 38254,
+   "cx": 0.1083
+  },
+  "Innermost intercostal muscles.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 38254,
+   "cx": -0.1083
+  },
+  "Intermediate cuneiform bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "cuneiform",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 444,
+   "cx": 0.0829
+  },
+  "Intermediate cuneiform bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "cuneiform",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 444,
+   "cx": -0.0829
+  },
+  "Intermediate tendon of digastric muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "digastric",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 228,
+   "cx": 0.0141
+  },
+  "Intermediate tendon of digastric muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "digastric",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 228,
+   "cx": -0.0141
+  },
+  "Intermuscular gluteal bursae.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 292,
+   "cx": 0.1041
+  },
+  "Intermuscular gluteal bursae.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 292,
+   "cx": -0.1041
+  },
+  "Internal abdominal oblique muscle.l": {
+   "grupo": "core",
+   "lado": "izq",
+   "regla": "abdominal oblique",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 28869,
+   "cx": 0.0566
+  },
+  "Internal abdominal oblique muscle.r": {
+   "grupo": "core",
+   "lado": "der",
+   "regla": "abdominal oblique",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 28869,
+   "cx": -0.0566
+  },
+  "Internal intercostal muscles.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 40184,
+   "cx": 0.1018
+  },
+  "Internal intercostal muscles.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 40184,
+   "cx": -0.1018
+  },
+  "Interspinales colli muscles.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 444,
+   "cx": 0.0036
+  },
+  "Interspinales colli muscles.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 444,
+   "cx": -0.0036
+  },
+  "Interspinales lumborum muscles.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "interspinales (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 562,
+   "cx": 0.0027
+  },
+  "Interspinales lumborum muscles.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "interspinales (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 562,
+   "cx": -0.0027
+  },
+  "Interspinales thoracis muscles.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "interspinales (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 198,
+   "cx": 0.0032
+  },
+  "Interspinales thoracis muscles.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "interspinales (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 198,
+   "cx": -0.0032
+  },
+  "Investing abdominal fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 11106,
+   "cx": 0.0826
+  },
+  "Investing abdominal fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 11106,
+   "cx": -0.0826
+  },
+  "Lateral crico-arytenoid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1624,
+   "cx": 0.0102
+  },
+  "Lateral crico-arytenoid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1624,
+   "cx": -0.0102
+  },
+  "Lateral cuneiform bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "cuneiform",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 638,
+   "cx": 0.0914
+  },
+  "Lateral cuneiform bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "cuneiform",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 638,
+   "cx": -0.0914
+  },
+  "Lateral femoral intermuscular septum.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 588,
+   "cx": 0.11
+  },
+  "Lateral femoral intermuscular septum.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 588,
+   "cx": -0.11
+  },
+  "Lateral head of flexor hallucis brevis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "flexor hallucis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 966,
+   "cx": 0.0722
+  },
+  "Lateral head of flexor hallucis brevis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "flexor hallucis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 966,
+   "cx": -0.0722
+  },
+  "Lateral head of gastrocnemius.l": {
+   "grupo": "pantorrillas",
+   "lado": "izq",
+   "regla": "gastrocnemius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4908,
+   "cx": 0.1058
+  },
+  "Lateral head of gastrocnemius.r": {
+   "grupo": "pantorrillas",
+   "lado": "der",
+   "regla": "gastrocnemius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4908,
+   "cx": -0.1058
+  },
+  "Lateral head of triceps brachii.l": {
+   "grupo": "triceps",
+   "lado": "izq",
+   "regla": "triceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3628,
+   "cx": 0.2112
+  },
+  "Lateral head of triceps brachii.r": {
+   "grupo": "triceps",
+   "lado": "der",
+   "regla": "triceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3628,
+   "cx": -0.2112
+  },
+  "Lateral intermuscular septum of arm.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 160,
+   "cx": 0.227
+  },
+  "Lateral intermuscular septum of arm.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 160,
+   "cx": -0.227
+  },
+  "Lateral patellar retinaculum.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7,
+   "cx": 0.1101
+  },
+  "Lateral patellar retinaculum.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7,
+   "cx": -0.1101
+  },
+  "Lateral rectus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1600,
+   "cx": 0.037
+  },
+  "Lateral rectus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1600,
+   "cx": -0.037
+  },
+  "Lateral subtendinous bursa of gastrocnemius muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": 0.1059
+  },
+  "Lateral subtendinous bursa of gastrocnemius muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": -0.1059
+  },
+  "Latissimus dorsi muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "latissimus dorsi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 21580,
+   "cx": 0.0818
+  },
+  "Latissimus dorsi muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "latissimus dorsi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 21580,
+   "cx": -0.0818
+  },
+  "Levator anguli oris.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "levator anguli",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 330,
+   "cx": 0.0197
+  },
+  "Levator anguli oris.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "levator anguli",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 330,
+   "cx": -0.0197
+  },
+  "Levator labii superioris.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "levator labii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 540,
+   "cx": 0.0226
+  },
+  "Levator labii superioris.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "levator labii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 540,
+   "cx": -0.0226
+  },
+  "Levator nasolabialis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "levator nasolabialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 172,
+   "cx": 0.0137
+  },
+  "Levator nasolabialis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "levator nasolabialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 172,
+   "cx": -0.0137
+  },
+  "Levator palpebrae superioris.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2152,
+   "cx": 0.029
+  },
+  "Levator palpebrae superioris.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2152,
+   "cx": -0.029
+  },
+  "Levator scapulae.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "levator scapulae",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3082,
+   "cx": 0.0491
+  },
+  "Levator scapulae.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "levator scapulae",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3082,
+   "cx": -0.0491
+  },
+  "Levatores breves costarum.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2690,
+   "cx": 0.0468
+  },
+  "Levatores breves costarum.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2690,
+   "cx": -0.0468
+  },
+  "Levatores longi costarum.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5930,
+   "cx": 0.0486
+  },
+  "Levatores longi costarum.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5930,
+   "cx": -0.0486
+  },
+  "Linea alba": {
+   "grupo": "core",
+   "lado": "centro",
+   "regla": "linea alba",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 338,
+   "cx": 0.0013
+  },
+  "Long head of biceps brachii.l": {
+   "grupo": "biceps",
+   "lado": "izq",
+   "regla": "biceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3218,
+   "cx": 0.205
+  },
+  "Long head of biceps brachii.r": {
+   "grupo": "biceps",
+   "lado": "der",
+   "regla": "biceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3218,
+   "cx": -0.205
+  },
+  "Long head of biceps femoris.l": {
+   "grupo": "femorales",
+   "lado": "izq",
+   "regla": "biceps femoris",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7258,
+   "cx": 0.0952
+  },
+  "Long head of biceps femoris.r": {
+   "grupo": "femorales",
+   "lado": "der",
+   "regla": "biceps femoris",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7258,
+   "cx": -0.0952
+  },
+  "Long head of triceps brachii.l": {
+   "grupo": "triceps",
+   "lado": "izq",
+   "regla": "triceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3950,
+   "cx": 0.1804
+  },
+  "Long head of triceps brachii.r": {
+   "grupo": "triceps",
+   "lado": "der",
+   "regla": "triceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3950,
+   "cx": -0.1804
+  },
+  "Longissimus capitis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "longissimus (capitis|colli)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1574,
+   "cx": 0.0338
+  },
+  "Longissimus capitis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "longissimus (capitis|colli)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1574,
+   "cx": -0.0338
+  },
+  "Longissimus colli muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "longissimus (capitis|colli)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1826,
+   "cx": 0.0328
+  },
+  "Longissimus colli muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "longissimus (capitis|colli)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1826,
+   "cx": -0.0328
+  },
+  "Longissimus thoracis muscle.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "longissimus thoracis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 9652,
+   "cx": 0.0332
+  },
+  "Longissimus thoracis muscle.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "longissimus thoracis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 9652,
+   "cx": -0.0332
+  },
+  "Longus capitis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1980,
+   "cx": 0.0184
+  },
+  "Longus capitis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1980,
+   "cx": -0.0184
+  },
+  "Longus colli muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6294,
+   "cx": 0.0125
+  },
+  "Longus colli muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6294,
+   "cx": -0.0125
+  },
+  "Lumbrical muscles of foot.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 418,
+   "cx": 0.0797
+  },
+  "Lumbrical muscles of foot.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of foot",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 418,
+   "cx": -0.0797
+  },
+  "Lumbrical muscles of hand.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1368,
+   "cx": 0.2676
+  },
+  "Lumbrical muscles of hand.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1368,
+   "cx": -0.2676
+  },
+  "Lunate bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 348,
+   "cx": 0.2528
+  },
+  "Lunate bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 348,
+   "cx": -0.2528
+  },
+  "Mandible": {
+   "grupo": "base_huesos",
+   "lado": "centro",
+   "regla": "^mandible",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 18838,
+   "cx": 0.0001
+  },
+  "Manubrium of sternum": {
+   "grupo": "base_huesos",
+   "lado": "centro",
+   "regla": "manubrium",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 2662,
+   "cx": -0.0
+  },
+  "Masseteric fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 398,
+   "cx": 0.0505
+  },
+  "Masseteric fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 398,
+   "cx": -0.0505
+  },
+  "Maxilla.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^maxilla",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 4798,
+   "cx": 0.0184
+  },
+  "Maxilla.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^maxilla",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 4798,
+   "cx": -0.0184
+  },
+  "Medial cuneiform bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "cuneiform",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 992,
+   "cx": 0.0705
+  },
+  "Medial cuneiform bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "cuneiform",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 992,
+   "cx": -0.0705
+  },
+  "Medial femoral intermuscular septum.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7714,
+   "cx": 0.064
+  },
+  "Medial femoral intermuscular septum.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7714,
+   "cx": -0.064
+  },
+  "Medial head of flexor hallucis brevis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "flexor hallucis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 514,
+   "cx": 0.0648
+  },
+  "Medial head of flexor hallucis brevis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "flexor hallucis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 514,
+   "cx": -0.0648
+  },
+  "Medial head of gastrocnemius.l": {
+   "grupo": "pantorrillas",
+   "lado": "izq",
+   "regla": "gastrocnemius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6462,
+   "cx": 0.0601
+  },
+  "Medial head of gastrocnemius.r": {
+   "grupo": "pantorrillas",
+   "lado": "der",
+   "regla": "gastrocnemius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6462,
+   "cx": -0.0601
+  },
+  "Medial head of triceps brachii.l": {
+   "grupo": "triceps",
+   "lado": "izq",
+   "regla": "triceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2686,
+   "cx": 0.1955
+  },
+  "Medial head of triceps brachii.r": {
+   "grupo": "triceps",
+   "lado": "der",
+   "regla": "triceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2686,
+   "cx": -0.1955
+  },
+  "Medial intermuscular septum of arm.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 312,
+   "cx": 0.1868
+  },
+  "Medial intermuscular septum of arm.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 312,
+   "cx": -0.1868
+  },
+  "Medial patellar retinaculum.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 10,
+   "cx": 0.043
+  },
+  "Medial patellar retinaculum.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 10,
+   "cx": -0.043
+  },
+  "Medial pterygoid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 496,
+   "cx": 0.0285
+  },
+  "Medial pterygoid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 496,
+   "cx": -0.0285
+  },
+  "Medial rectus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1252,
+   "cx": 0.0177
+  },
+  "Medial rectus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1252,
+   "cx": -0.0177
+  },
+  "Medial subtendinous bursa of gastrocnemius muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 80,
+   "cx": 0.0611
+  },
+  "Medial subtendinous bursa of gastrocnemius muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 80,
+   "cx": -0.0611
+  },
+  "Mentalis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "mentalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 166,
+   "cx": 0.0075
+  },
+  "Mentalis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "mentalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 166,
+   "cx": -0.0075
+  },
+  "Middle layer of thoracolumbar fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 160,
+   "cx": 0.0483
+  },
+  "Middle layer of thoracolumbar fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 160,
+   "cx": -0.0483
+  },
+  "Middle phalanx of fifth finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 216,
+   "cx": 0.1406
+  },
+  "Middle phalanx of fifth finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 216,
+   "cx": -0.1406
+  },
+  "Middle phalanx of fifth finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 292,
+   "cx": 0.2315
+  },
+  "Middle phalanx of fifth finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 292,
+   "cx": -0.2315
+  },
+  "Middle phalanx of fourth finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 448,
+   "cx": 0.1297
+  },
+  "Middle phalanx of fourth finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 448,
+   "cx": -0.1297
+  },
+  "Middle phalanx of fourth finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 446,
+   "cx": 0.2567
+  },
+  "Middle phalanx of fourth finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 446,
+   "cx": -0.2567
+  },
+  "Middle phalanx of second finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 382,
+   "cx": 0.1016
+  },
+  "Middle phalanx of second finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 382,
+   "cx": -0.1016
+  },
+  "Middle phalanx of second finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 314,
+   "cx": 0.3128
+  },
+  "Middle phalanx of second finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 314,
+   "cx": -0.3128
+  },
+  "Middle phalanx of third finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 400,
+   "cx": 0.1162
+  },
+  "Middle phalanx of third finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 400,
+   "cx": -0.1162
+  },
+  "Middle phalanx of third finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 360,
+   "cx": 0.2825
+  },
+  "Middle phalanx of third finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 360,
+   "cx": -0.2825
+  },
+  "Middle pharyngeal constrictor.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2948,
+   "cx": 0.0118
+  },
+  "Middle pharyngeal constrictor.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2948,
+   "cx": -0.0118
+  },
+  "Multifidus colli muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "multifidus colli",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1390,
+   "cx": 0.015
+  },
+  "Multifidus colli muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "multifidus colli",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1390,
+   "cx": -0.015
+  },
+  "Multifidus lumborum muscle.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "multifidus (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2820,
+   "cx": 0.0219
+  },
+  "Multifidus lumborum muscle.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "multifidus (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2820,
+   "cx": -0.0219
+  },
+  "Multifidus thoracis muscle.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "multifidus (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3902,
+   "cx": 0.0142
+  },
+  "Multifidus thoracis muscle.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "multifidus (lumborum|thoracis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3902,
+   "cx": -0.0142
+  },
+  "Muscular system.g": {
+   "grupo": "excluido",
+   "lado": "centro",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 766,
+   "cx": -0.8008
+  },
+  "Mylohyoid muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "mylohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1122,
+   "cx": 0.0082
+  },
+  "Mylohyoid muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "mylohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1122,
+   "cx": -0.0082
+  },
+  "Nasal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 292,
+   "cx": 0.0038
+  },
+  "Nasal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 292,
+   "cx": -0.0038
+  },
+  "Nasalis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "nasalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 704,
+   "cx": 0.0084
+  },
+  "Nasalis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "nasalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 704,
+   "cx": -0.0084
+  },
+  "Navicular bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(calcaneus|talus|navicular|cuboid)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 732,
+   "cx": 0.0748
+  },
+  "Navicular bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(calcaneus|talus|navicular|cuboid)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 732,
+   "cx": -0.0748
+  },
+  "Oblique head of adductor hallucis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "adductor hallucis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 904,
+   "cx": 0.0912
+  },
+  "Oblique head of adductor hallucis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "adductor hallucis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 904,
+   "cx": -0.0912
+  },
+  "Oblique head of adductor pollicis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "adductor pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 450,
+   "cx": 0.282
+  },
+  "Oblique head of adductor pollicis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "adductor pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 450,
+   "cx": -0.282
+  },
+  "Oblique part of cricothyroid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2060,
+   "cx": 0.0115
+  },
+  "Oblique part of cricothyroid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2060,
+   "cx": -0.0115
+  },
+  "Obliquus inferior capitis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 540,
+   "cx": 0.0218
+  },
+  "Obliquus inferior capitis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 540,
+   "cx": -0.0218
+  },
+  "Obliquus superior capitis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 654,
+   "cx": 0.0379
+  },
+  "Obliquus superior capitis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 654,
+   "cx": -0.0379
+  },
+  "Obturator externus.l": {
+   "grupo": "aductores",
+   "lado": "izq",
+   "regla": "obturator externus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1156,
+   "cx": 0.0668
+  },
+  "Obturator externus.r": {
+   "grupo": "aductores",
+   "lado": "der",
+   "regla": "obturator externus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1156,
+   "cx": -0.0668
+  },
+  "Obturator internus.l": {
+   "grupo": "gluteos",
+   "lado": "izq",
+   "regla": "obturator internus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3760,
+   "cx": 0.0488
+  },
+  "Obturator internus.r": {
+   "grupo": "gluteos",
+   "lado": "der",
+   "regla": "obturator internus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3760,
+   "cx": -0.0488
+  },
+  "Occipital bone": {
+   "grupo": "base_huesos",
+   "lado": "centro",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 7531,
+   "cx": -0.0
+  },
+  "Occipitalis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "occipitalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2602,
+   "cx": 0.0401
+  },
+  "Occipitalis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "occipitalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2602,
+   "cx": -0.0401
+  },
+  "Omohyoid muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "omohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2706,
+   "cx": 0.06
+  },
+  "Omohyoid muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "omohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2706,
+   "cx": -0.06
+  },
+  "Opponens digiti minimi muscle of hand.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 420,
+   "cx": 0.2422
+  },
+  "Opponens digiti minimi muscle of hand.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "of hand",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 420,
+   "cx": -0.2422
+  },
+  "Opponens pollicis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "opponens pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 384,
+   "cx": 0.2841
+  },
+  "Opponens pollicis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "opponens pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 384,
+   "cx": -0.2841
+  },
+  "Orbicularis oris muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "orbicularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1880,
+   "cx": 0.0142
+  },
+  "Orbicularis oris muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "orbicularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1880,
+   "cx": -0.0142
+  },
+  "Orbital part of orbicularis oculi.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "orbicularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2390,
+   "cx": 0.0328
+  },
+  "Orbital part of orbicularis oculi.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "orbicularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2390,
+   "cx": -0.0328
+  },
+  "Palatopharyngeus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 15282,
+   "cx": 0.01
+  },
+  "Palatopharyngeus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 15282,
+   "cx": -0.01
+  },
+  "Palmar aponeurosis.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1284,
+   "cx": 0.2791
+  },
+  "Palmar aponeurosis.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1284,
+   "cx": -0.2791
+  },
+  "Palmar interossei muscles.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "palmar interossei",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 174,
+   "cx": 0.2453
+  },
+  "Palmar interossei muscles.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "palmar interossei",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 174,
+   "cx": -0.2453
+  },
+  "Palmaris longus muscle.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "palmaris longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4374,
+   "cx": 0.2449
+  },
+  "Palmaris longus muscle.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "palmaris longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4374,
+   "cx": -0.2449
+  },
+  "Palpebral part of orbicularis oculi.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "orbicularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 830,
+   "cx": 0.0312
+  },
+  "Palpebral part of orbicularis oculi.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "orbicularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 830,
+   "cx": -0.0312
+  },
+  "Parietal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 6886,
+   "cx": 0.0242
+  },
+  "Parietal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 6780,
+   "cx": -0.027
+  },
+  "Patella.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^patella",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 276,
+   "cx": 0.0863
+  },
+  "Patella.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^patella",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 276,
+   "cx": -0.0863
+  },
+  "Pectineus muscle.l": {
+   "grupo": "aductores",
+   "lado": "izq",
+   "regla": "pectineus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1952,
+   "cx": 0.057
+  },
+  "Pectineus muscle.r": {
+   "grupo": "aductores",
+   "lado": "der",
+   "regla": "pectineus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1952,
+   "cx": -0.057
+  },
+  "Pectoral fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2709,
+   "cx": 0.0809
+  },
+  "Pectoral fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2709,
+   "cx": -0.0809
+  },
+  "Pectoralis minor muscle.l": {
+   "grupo": "pecho",
+   "lado": "izq",
+   "regla": "pectoralis minor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4142,
+   "cx": 0.1104
+  },
+  "Pectoralis minor muscle.r": {
+   "grupo": "pecho",
+   "lado": "der",
+   "regla": "pectoralis minor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4142,
+   "cx": -0.1104
+  },
+  "Piriformis fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 926,
+   "cx": 0.0712
+  },
+  "Piriformis fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 926,
+   "cx": -0.0712
+  },
+  "Piriformis muscle.l": {
+   "grupo": "gluteos",
+   "lado": "izq",
+   "regla": "piriformis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1500,
+   "cx": 0.0698
+  },
+  "Piriformis muscle.r": {
+   "grupo": "gluteos",
+   "lado": "der",
+   "regla": "piriformis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1500,
+   "cx": -0.0698
+  },
+  "Pisiform bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 278,
+   "cx": 0.2437
+  },
+  "Pisiform bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 278,
+   "cx": -0.2437
+  },
+  "Plantar aponeurosis.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 406,
+   "cx": 0.0835
+  },
+  "Plantar aponeurosis.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 406,
+   "cx": -0.0835
+  },
+  "Plantar interossei muscles.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "plantar interossei",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1242,
+   "cx": 0.1083
+  },
+  "Plantar interossei muscles.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "plantar interossei",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1242,
+   "cx": -0.1083
+  },
+  "Plantar tendon sheath of fibularis longus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 160,
+   "cx": 0.0997
+  },
+  "Plantar tendon sheath of fibularis longus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 160,
+   "cx": -0.0997
+  },
+  "Plantaris muscle.l": {
+   "grupo": "pantorrillas",
+   "lado": "izq",
+   "regla": "plantaris muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4698,
+   "cx": 0.0768
+  },
+  "Plantaris muscle.r": {
+   "grupo": "pantorrillas",
+   "lado": "der",
+   "regla": "plantaris muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4698,
+   "cx": -0.0768
+  },
+  "Platysma.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6548,
+   "cx": 0.0397
+  },
+  "Platysma.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6548,
+   "cx": -0.0397
+  },
+  "Popliteal fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 488,
+   "cx": 0.0743
+  },
+  "Popliteal fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 488,
+   "cx": -0.0743
+  },
+  "Popliteus muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "popliteus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1132,
+   "cx": 0.0866
+  },
+  "Popliteus muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "popliteus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1132,
+   "cx": -0.0866
+  },
+  "Posterior belly of digastric muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "digastric",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1276,
+   "cx": 0.0402
+  },
+  "Posterior belly of digastric muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "digastric",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1276,
+   "cx": -0.0402
+  },
+  "Posterior crico-arytenoid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1812,
+   "cx": 0.0064
+  },
+  "Posterior crico-arytenoid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1812,
+   "cx": -0.0064
+  },
+  "Posterior intermuscular septum of leg.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 265,
+   "cx": 0.1115
+  },
+  "Posterior intermuscular septum of leg.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 265,
+   "cx": -0.1115
+  },
+  "Posterior layer of thoracolumbar fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 313,
+   "cx": 0.0449
+  },
+  "Posterior layer of thoracolumbar fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 313,
+   "cx": -0.0449
+  },
+  "Procerus muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "procerus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 546,
+   "cx": 0.0091
+  },
+  "Procerus muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "procerus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 546,
+   "cx": -0.0091
+  },
+  "Pronator quadratus.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "pronator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1020,
+   "cx": 0.2541
+  },
+  "Pronator quadratus.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "pronator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1020,
+   "cx": -0.2541
+  },
+  "Proximal phalanx of fifth finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 516,
+   "cx": 0.1357
+  },
+  "Proximal phalanx of fifth finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 516,
+   "cx": -0.1357
+  },
+  "Proximal phalanx of fifth finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 560,
+   "cx": 0.2343
+  },
+  "Proximal phalanx of fifth finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 560,
+   "cx": -0.2343
+  },
+  "Proximal phalanx of first finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 532,
+   "cx": 0.0746
+  },
+  "Proximal phalanx of first finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 532,
+   "cx": -0.0746
+  },
+  "Proximal phalanx of first finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 328,
+   "cx": 0.319
+  },
+  "Proximal phalanx of first finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 328,
+   "cx": -0.319
+  },
+  "Proximal phalanx of fourth finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 460,
+   "cx": 0.1232
+  },
+  "Proximal phalanx of fourth finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 460,
+   "cx": -0.1232
+  },
+  "Proximal phalanx of fourth finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 368,
+   "cx": 0.256
+  },
+  "Proximal phalanx of fourth finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 368,
+   "cx": -0.256
+  },
+  "Proximal phalanx of second finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 426,
+   "cx": 0.0957
+  },
+  "Proximal phalanx of second finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 426,
+   "cx": -0.0957
+  },
+  "Proximal phalanx of second finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 414,
+   "cx": 0.3028
+  },
+  "Proximal phalanx of second finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 414,
+   "cx": -0.3028
+  },
+  "Proximal phalanx of third finger of foot.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 460,
+   "cx": 0.111
+  },
+  "Proximal phalanx of third finger of foot.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 460,
+   "cx": -0.111
+  },
+  "Proximal phalanx of third finger of hand.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 440,
+   "cx": 0.2783
+  },
+  "Proximal phalanx of third finger of hand.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "phalanx",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 440,
+   "cx": -0.2783
+  },
+  "Psoas major.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5474,
+   "cx": 0.046
+  },
+  "Psoas major.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5474,
+   "cx": -0.046
+  },
+  "Pubo-analis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1440,
+   "cx": 0.0164
+  },
+  "Pubo-analis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1440,
+   "cx": -0.0164
+  },
+  "Pubococcygeus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2512,
+   "cx": 0.0166
+  },
+  "Pubococcygeus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2512,
+   "cx": -0.0166
+  },
+  "Pyramidalis muscle.l": {
+   "grupo": "core",
+   "lado": "izq",
+   "regla": "pyramidalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1112,
+   "cx": 0.0142
+  },
+  "Pyramidalis muscle.r": {
+   "grupo": "core",
+   "lado": "der",
+   "regla": "pyramidalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1112,
+   "cx": -0.0142
+  },
+  "Quadratus femoris muscle.l": {
+   "grupo": "gluteos",
+   "lado": "izq",
+   "regla": "quadratus femoris",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1646,
+   "cx": 0.0912
+  },
+  "Quadratus femoris muscle.r": {
+   "grupo": "gluteos",
+   "lado": "der",
+   "regla": "quadratus femoris",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1646,
+   "cx": -0.0912
+  },
+  "Quadratus lumborum muscle.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "quadratus lumborum",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2832,
+   "cx": 0.0403
+  },
+  "Quadratus lumborum muscle.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "quadratus lumborum",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2832,
+   "cx": -0.0403
+  },
+  "Quadratus plantae muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "quadratus plantae",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1176,
+   "cx": 0.0856
+  },
+  "Quadratus plantae muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "quadratus plantae",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1176,
+   "cx": -0.0856
+  },
+  "Radial head of flexor digitorum superficialis.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "flexor digitorum superficialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1276,
+   "cx": 0.2493
+  },
+  "Radial head of flexor digitorum superficialis.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "flexor digitorum superficialis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1276,
+   "cx": -0.2493
+  },
+  "Rectus abdominis muscle.l": {
+   "grupo": "core",
+   "lado": "izq",
+   "regla": "rectus abdominis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 20604,
+   "cx": 0.0411
+  },
+  "Rectus abdominis muscle.r": {
+   "grupo": "core",
+   "lado": "der",
+   "regla": "rectus abdominis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 20604,
+   "cx": -0.0411
+  },
+  "Rectus anterior capitis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 396,
+   "cx": 0.0141
+  },
+  "Rectus anterior capitis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 396,
+   "cx": -0.0141
+  },
+  "Rectus femoris muscle.l": {
+   "grupo": "cuadriceps",
+   "lado": "izq",
+   "regla": "rectus femoris",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 8276,
+   "cx": 0.1039
+  },
+  "Rectus femoris muscle.r": {
+   "grupo": "cuadriceps",
+   "lado": "der",
+   "regla": "rectus femoris",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 8276,
+   "cx": -0.1039
+  },
+  "Rectus lateralis capitis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 360,
+   "cx": 0.0363
+  },
+  "Rectus lateralis capitis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 360,
+   "cx": -0.0363
+  },
+  "Rectus posterior major capitis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 788,
+   "cx": 0.0204
+  },
+  "Rectus posterior major capitis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 788,
+   "cx": -0.0204
+  },
+  "Rectus posterior minor capitis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 432,
+   "cx": 0.0105
+  },
+  "Rectus posterior minor capitis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 432,
+   "cx": -0.0105
+  },
+  "Rhomboid major muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "rhomboid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4800,
+   "cx": 0.0301
+  },
+  "Rhomboid major muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "rhomboid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4800,
+   "cx": -0.0301
+  },
+  "Rhomboid minor muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "rhomboid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1494,
+   "cx": 0.0282
+  },
+  "Rhomboid minor muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "rhomboid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1494,
+   "cx": -0.0282
+  },
+  "Risorius muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "risorius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 592,
+   "cx": 0.0409
+  },
+  "Risorius muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "risorius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 592,
+   "cx": -0.0409
+  },
+  "Rotatores.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "^rotatores",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6518,
+   "cx": 0.0147
+  },
+  "Rotatores.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "^rotatores",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6518,
+   "cx": -0.0147
+  },
+  "Sartorius muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "sartorius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4966,
+   "cx": 0.0633
+  },
+  "Sartorius muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "sartorius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4966,
+   "cx": -0.0633
+  },
+  "Scalenus anterior muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "scalenus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1386,
+   "cx": 0.0335
+  },
+  "Scalenus anterior muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "scalenus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1386,
+   "cx": -0.0335
+  },
+  "Scalenus medius muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "scalenus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2078,
+   "cx": 0.0356
+  },
+  "Scalenus medius muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "scalenus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2078,
+   "cx": -0.0356
+  },
+  "Scalenus posterior muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "scalenus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1326,
+   "cx": 0.0458
+  },
+  "Scalenus posterior muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "scalenus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1326,
+   "cx": -0.0458
+  },
+  "Scaphoid bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 390,
+   "cx": 0.2715
+  },
+  "Scaphoid bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 390,
+   "cx": -0.2715
+  },
+  "Scapular spinal part of deltoid muscle.l": {
+   "grupo": "hombros",
+   "lado": "izq",
+   "regla": "deltoid muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4378,
+   "cx": 0.1825
+  },
+  "Scapular spinal part of deltoid muscle.r": {
+   "grupo": "hombros",
+   "lado": "der",
+   "regla": "deltoid muscle",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4378,
+   "cx": -0.1825
+  },
+  "Sciatic bursa of gluteus maximus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.0597
+  },
+  "Sciatic bursa of gluteus maximus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.0597
+  },
+  "Sciatic bursa of obturator internus.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.0536
+  },
+  "Sciatic bursa of obturator internus.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.0536
+  },
+  "Second metacarpal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 764,
+   "cx": 0.2863
+  },
+  "Second metacarpal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 764,
+   "cx": -0.2863
+  },
+  "Second metatarsal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 690,
+   "cx": 0.0898
+  },
+  "Second metatarsal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 690,
+   "cx": -0.0898
+  },
+  "Semimembranosus bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": 0.0429
+  },
+  "Semimembranosus bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": -0.0429
+  },
+  "Semimembranosus muscle.l": {
+   "grupo": "femorales",
+   "lado": "izq",
+   "regla": "semimembranosus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7442,
+   "cx": 0.045
+  },
+  "Semimembranosus muscle.r": {
+   "grupo": "femorales",
+   "lado": "der",
+   "regla": "semimembranosus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 7442,
+   "cx": -0.045
+  },
+  "Semispinalis colli muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "semispinalis (colli|capitis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2584,
+   "cx": 0.0179
+  },
+  "Semispinalis colli muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "semispinalis (colli|capitis)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2584,
+   "cx": -0.0179
+  },
+  "Semispinalis thoracis muscle.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "spinalis thoracis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4972,
+   "cx": 0.0154
+  },
+  "Semispinalis thoracis muscle.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "spinalis thoracis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4972,
+   "cx": -0.0154
+  },
+  "Semitendinosus muscle.l": {
+   "grupo": "femorales",
+   "lado": "izq",
+   "regla": "semitendinosus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4316,
+   "cx": 0.0502
+  },
+  "Semitendinosus muscle.r": {
+   "grupo": "femorales",
+   "lado": "der",
+   "regla": "semitendinosus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4316,
+   "cx": -0.0502
+  },
+  "Serratus anterior muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "serratus anterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 25240,
+   "cx": 0.1151
+  },
+  "Serratus anterior muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "serratus anterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 25240,
+   "cx": -0.1151
+  },
+  "Serratus posterior inferior muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "serratus posterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 8958,
+   "cx": 0.0454
+  },
+  "Serratus posterior inferior muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "serratus posterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 8958,
+   "cx": -0.0454
+  },
+  "Serratus posterior superior muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "serratus posterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5518,
+   "cx": 0.0461
+  },
+  "Serratus posterior superior muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "serratus posterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5518,
+   "cx": -0.0461
+  },
+  "Short head of biceps brachii.l": {
+   "grupo": "biceps",
+   "lado": "izq",
+   "regla": "biceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2696,
+   "cx": 0.1842
+  },
+  "Short head of biceps brachii.r": {
+   "grupo": "biceps",
+   "lado": "der",
+   "regla": "biceps brachii",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2696,
+   "cx": -0.1842
+  },
+  "Short head of biceps femoris.l": {
+   "grupo": "femorales",
+   "lado": "izq",
+   "regla": "biceps femoris",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2476,
+   "cx": 0.1067
+  },
+  "Short head of biceps femoris.r": {
+   "grupo": "femorales",
+   "lado": "der",
+   "regla": "biceps femoris",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2476,
+   "cx": -0.1067
+  },
+  "Soleus muscle.l": {
+   "grupo": "pantorrillas",
+   "lado": "izq",
+   "regla": "soleus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6774,
+   "cx": 0.0861
+  },
+  "Soleus muscle.r": {
+   "grupo": "pantorrillas",
+   "lado": "der",
+   "regla": "soleus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6774,
+   "cx": -0.0861
+  },
+  "Sphenoid bone": {
+   "grupo": "base_huesos",
+   "lado": "centro",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 7308,
+   "cx": -0.0
+  },
+  "Spinalis capitis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "spinalis (capitis|colli)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2560,
+   "cx": 0.024
+  },
+  "Spinalis capitis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "spinalis (capitis|colli)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2560,
+   "cx": -0.024
+  },
+  "Spinalis colli muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "spinalis (capitis|colli)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 596,
+   "cx": 0.0046
+  },
+  "Spinalis colli muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "spinalis (capitis|colli)",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 596,
+   "cx": -0.0046
+  },
+  "Spinalis thoracis muscle.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "spinalis thoracis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5532,
+   "cx": 0.0053
+  },
+  "Spinalis thoracis muscle.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "spinalis thoracis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5532,
+   "cx": -0.0053
+  },
+  "Splenius capitis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "splenius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5262,
+   "cx": 0.0205
+  },
+  "Splenius capitis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "splenius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5262,
+   "cx": -0.0205
+  },
+  "Splenius colli muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "splenius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4314,
+   "cx": 0.018
+  },
+  "Splenius colli muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "splenius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4314,
+   "cx": -0.018
+  },
+  "Sternocleidomastoid muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "sternocleidomastoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4952,
+   "cx": 0.036
+  },
+  "Sternocleidomastoid muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "sternocleidomastoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4952,
+   "cx": -0.036
+  },
+  "Sternocostal head of pectoralis major muscle.l": {
+   "grupo": "pecho",
+   "lado": "izq",
+   "regla": "pectoralis major",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3222,
+   "cx": 0.0874
+  },
+  "Sternocostal head of pectoralis major muscle.r": {
+   "grupo": "pecho",
+   "lado": "der",
+   "regla": "pectoralis major",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3222,
+   "cx": -0.0874
+  },
+  "Sternohyoid muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "sternohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1394,
+   "cx": 0.0127
+  },
+  "Sternohyoid muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "sternohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1394,
+   "cx": -0.0127
+  },
+  "Sternothyroid muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "sternothyroid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1088,
+   "cx": 0.0138
+  },
+  "Sternothyroid muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "sternothyroid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1088,
+   "cx": -0.0138
+  },
+  "Straight part of cricothyroid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1180,
+   "cx": 0.0076
+  },
+  "Straight part of cricothyroid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1180,
+   "cx": -0.0076
+  },
+  "Stylohyoid muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "stylohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 694,
+   "cx": 0.0253
+  },
+  "Stylohyoid muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "stylohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 694,
+   "cx": -0.0253
+  },
+  "Stylopharyngeus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 9478,
+   "cx": 0.0218
+  },
+  "Stylopharyngeus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 9478,
+   "cx": -0.0218
+  },
+  "Subacromial bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1607
+  },
+  "Subacromial bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1607
+  },
+  "Subclavius muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 794,
+   "cx": 0.0615
+  },
+  "Subclavius muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 794,
+   "cx": -0.0615
+  },
+  "Subcutaneous acromial bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1607
+  },
+  "Subcutaneous acromial bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1607
+  },
+  "Subcutaneous bursa of lateral malleolus.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 60,
+   "cx": 0.1078
+  },
+  "Subcutaneous bursa of lateral malleolus.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 60,
+   "cx": -0.1078
+  },
+  "Subcutaneous bursa of medial malleolus.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 60,
+   "cx": 0.0491
+  },
+  "Subcutaneous bursa of medial malleolus.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 60,
+   "cx": -0.0491
+  },
+  "Subcutaneous bursa of tuberosity of tibia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.0824
+  },
+  "Subcutaneous bursa of tuberosity of tibia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.0824
+  },
+  "Subcutaneous calcaneal bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 48,
+   "cx": 0.0687
+  },
+  "Subcutaneous calcaneal bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 48,
+   "cx": -0.0687
+  },
+  "Subcutaneous infrapatellar bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.0853
+  },
+  "Subcutaneous infrapatellar bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.0853
+  },
+  "Subcutaneous prepatellar bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": 0.0851
+  },
+  "Subcutaneous prepatellar bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": -0.0851
+  },
+  "Subcutaneous trochanteric bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1452
+  },
+  "Subcutaneous trochanteric bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1452
+  },
+  "Subdeltoid bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1912
+  },
+  "Subdeltoid bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1912
+  },
+  "Subfacial prepatellar bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": 0.0851
+  },
+  "Subfacial prepatellar bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": -0.0851
+  },
+  "Subscapularis muscle.l": {
+   "grupo": "hombros",
+   "lado": "izq",
+   "regla": "subscapularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2954,
+   "cx": 0.1171
+  },
+  "Subscapularis muscle.r": {
+   "grupo": "hombros",
+   "lado": "der",
+   "regla": "subscapularis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2954,
+   "cx": -0.1171
+  },
+  "Subtendinous bursa of iliacus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.0924
+  },
+  "Subtendinous bursa of iliacus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.0924
+  },
+  "Subtendinous bursa of infraspinatus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1814
+  },
+  "Subtendinous bursa of infraspinatus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1814
+  },
+  "Subtendinous bursa of obturator internus.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1065
+  },
+  "Subtendinous bursa of obturator internus.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1065
+  },
+  "Subtendinous bursa of sartorius muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 132,
+   "cx": 0.0651
+  },
+  "Subtendinous bursa of sartorius muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 132,
+   "cx": -0.0651
+  },
+  "Subtendinous bursa of teres major muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1829
+  },
+  "Subtendinous bursa of teres major muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1829
+  },
+  "Subtendinous bursa of tibialis anterior.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 64,
+   "cx": 0.0619
+  },
+  "Subtendinous bursa of tibialis anterior.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 64,
+   "cx": -0.0619
+  },
+  "Subtendinous bursa of trapezius muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1024
+  },
+  "Subtendinous bursa of trapezius muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1024
+  },
+  "Subtendinous bursa of triceps brachii muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.2154
+  },
+  "Subtendinous bursa of triceps brachii muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.2154
+  },
+  "Subtendinous calcaneal bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 136,
+   "cx": 0.0742
+  },
+  "Subtendinous calcaneal bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 136,
+   "cx": -0.0742
+  },
+  "Subtendinous prepatellar bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": 0.0851
+  },
+  "Subtendinous prepatellar bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 96,
+   "cx": -0.0851
+  },
+  "Superficial head of flexor pollicis brevis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "flexor pollicis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 276,
+   "cx": 0.2874
+  },
+  "Superficial head of flexor pollicis brevis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "flexor pollicis brevis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 276,
+   "cx": -0.2874
+  },
+  "Superficial head of pronator teres.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "pronator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2546,
+   "cx": 0.24
+  },
+  "Superficial head of pronator teres.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "pronator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2546,
+   "cx": -0.24
+  },
+  "Superficial investing cervical fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3336,
+   "cx": 0.0511
+  },
+  "Superficial investing cervical fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3336,
+   "cx": -0.0511
+  },
+  "Superficial layer of temporal fascia.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 685,
+   "cx": 0.0661
+  },
+  "Superficial layer of temporal fascia.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 685,
+   "cx": -0.0661
+  },
+  "Superficial part of masseter.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "masseter",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1404,
+   "cx": 0.0499
+  },
+  "Superficial part of masseter.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "masseter",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1404,
+   "cx": -0.0499
+  },
+  "Superficial transverse metacarpal ligament.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 64,
+   "cx": 0.2715
+  },
+  "Superficial transverse metacarpal ligament.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 64,
+   "cx": -0.2715
+  },
+  "Superficial transverse metatarsal ligament.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 99,
+   "cx": 0.0993
+  },
+  "Superficial transverse metatarsal ligament.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 99,
+   "cx": -0.0993
+  },
+  "Superior bursa of biceps femoris muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.0642
+  },
+  "Superior bursa of biceps femoris muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.0642
+  },
+  "Superior extensor retinaculum of ankle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 97,
+   "cx": 0.091
+  },
+  "Superior extensor retinaculum of ankle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 97,
+   "cx": -0.091
+  },
+  "Superior fibular retinaculum.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 254,
+   "cx": 0.0845
+  },
+  "Superior fibular retinaculum.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 254,
+   "cx": -0.0845
+  },
+  "Superior gemellus muscle.l": {
+   "grupo": "gluteos",
+   "lado": "izq",
+   "regla": "gemellus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 404,
+   "cx": 0.0775
+  },
+  "Superior gemellus muscle.r": {
+   "grupo": "gluteos",
+   "lado": "der",
+   "regla": "gemellus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 404,
+   "cx": -0.0775
+  },
+  "Superior head of lateral pterygoid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 226,
+   "cx": 0.0337
+  },
+  "Superior head of lateral pterygoid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 226,
+   "cx": -0.0337
+  },
+  "Superior oblique muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1750,
+   "cx": 0.024
+  },
+  "Superior oblique muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1750,
+   "cx": -0.024
+  },
+  "Superior pharyngeal constrictor.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5334,
+   "cx": 0.0151
+  },
+  "Superior pharyngeal constrictor.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5334,
+   "cx": -0.0151
+  },
+  "Superior rectus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1284,
+   "cx": 0.0272
+  },
+  "Superior rectus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1284,
+   "cx": -0.0272
+  },
+  "Superior tarsus.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 178,
+   "cx": 0.0317
+  },
+  "Superior tarsus.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 178,
+   "cx": -0.0317
+  },
+  "Supinator.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "^supinator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2754,
+   "cx": 0.2476
+  },
+  "Supinator.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "^supinator",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2754,
+   "cx": -0.2476
+  },
+  "Suprapatellar bursa.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 132,
+   "cx": 0.0858
+  },
+  "Suprapatellar bursa.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 132,
+   "cx": -0.0858
+  },
+  "Supraspinatus muscle.l": {
+   "grupo": "hombros",
+   "lado": "izq",
+   "regla": "supraspinatus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1430,
+   "cx": 0.1484
+  },
+  "Supraspinatus muscle.r": {
+   "grupo": "hombros",
+   "lado": "der",
+   "regla": "supraspinatus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1430,
+   "cx": -0.1484
+  },
+  "Synovial sheaths of digits of hand.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 436,
+   "cx": 0.28
+  },
+  "Synovial sheaths of digits of hand.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 436,
+   "cx": -0.28
+  },
+  "Talus.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(calcaneus|talus|navicular|cuboid)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1350,
+   "cx": 0.0724
+  },
+  "Talus.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(calcaneus|talus|navicular|cuboid)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1350,
+   "cx": -0.0724
+  },
+  "Temporal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 14094,
+   "cx": 0.0444
+  },
+  "Temporal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 14094,
+   "cx": -0.0444
+  },
+  "Temporalis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "temporalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 10260,
+   "cx": 0.0605
+  },
+  "Temporalis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "temporalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 10260,
+   "cx": -0.0605
+  },
+  "Temporoparietalis muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "temporoparietalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 11972,
+   "cx": 0.0661
+  },
+  "Temporoparietalis muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "temporoparietalis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 11972,
+   "cx": -0.0661
+  },
+  "Tendinous arch of levator ani.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 750,
+   "cx": 0.036
+  },
+  "Tendinous arch of levator ani.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 750,
+   "cx": -0.036
+  },
+  "Tendon of extensor digitorum longus.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "extensor digitorum longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5184,
+   "cx": 0.1045
+  },
+  "Tendon of extensor digitorum longus.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "extensor digitorum longus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5184,
+   "cx": -0.1045
+  },
+  "Tendon sheath - abd. pollicis longus - ext. pollicis brevis.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 680,
+   "cx": 0.2879
+  },
+  "Tendon sheath - abd. pollicis longus - ext. pollicis brevis.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 680,
+   "cx": -0.2879
+  },
+  "Tendon sheath of extensor digitorum and extensor indicis.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 148,
+   "cx": 0.2627
+  },
+  "Tendon sheath of extensor digitorum and extensor indicis.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 148,
+   "cx": -0.2627
+  },
+  "Tendon sheath of extensor digitorum longus.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 128,
+   "cx": 0.0937
+  },
+  "Tendon sheath of extensor digitorum longus.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 128,
+   "cx": -0.0937
+  },
+  "Tendon sheath of extensors carpi radialis.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 146,
+   "cx": 0.2806
+  },
+  "Tendon sheath of extensors carpi radialis.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 146,
+   "cx": -0.2806
+  },
+  "Tendon sheath of flexor digitorum longus.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 256,
+   "cx": 0.0568
+  },
+  "Tendon sheath of flexor digitorum longus.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 256,
+   "cx": -0.0568
+  },
+  "Tendon sheath of flexor hallucis longus.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 432,
+   "cx": 0.0658
+  },
+  "Tendon sheath of flexor hallucis longus.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 432,
+   "cx": -0.0658
+  },
+  "Tendon sheath of tibialis anterior.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 240,
+   "cx": 0.0752
+  },
+  "Tendon sheath of tibialis anterior.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 240,
+   "cx": -0.0752
+  },
+  "Tendon sheath of tibialis posterior muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 286,
+   "cx": 0.0552
+  },
+  "Tendon sheath of tibialis posterior muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 286,
+   "cx": -0.0552
+  },
+  "Tensor fasciae latae.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1862,
+   "cx": 0.1328
+  },
+  "Tensor fasciae latae.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1862,
+   "cx": -0.1328
+  },
+  "Teres major muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "teres major",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1154,
+   "cx": 0.1464
+  },
+  "Teres major muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "teres major",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1154,
+   "cx": -0.1464
+  },
+  "Teres minor muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "teres minor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1522,
+   "cx": 0.1514
+  },
+  "Teres minor muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "teres minor",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1522,
+   "cx": -0.1514
+  },
+  "Third metacarpal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 708,
+   "cx": 0.2702
+  },
+  "Third metacarpal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metacarpal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 708,
+   "cx": -0.2702
+  },
+  "Third metatarsal bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 814,
+   "cx": 0.1019
+  },
+  "Third metatarsal bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "metatarsal",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 814,
+   "cx": -0.1019
+  },
+  "Thyro-epiglottic part of thyro-arytenoid muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3110,
+   "cx": 0.006
+  },
+  "Thyro-epiglottic part of thyro-arytenoid muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3110,
+   "cx": -0.006
+  },
+  "Thyrohyoid muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "thyrohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 700,
+   "cx": 0.0144
+  },
+  "Thyrohyoid muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "thyrohyoid",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 700,
+   "cx": -0.0144
+  },
+  "Tibialis anterior muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "tibialis anterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3526,
+   "cx": 0.0909
+  },
+  "Tibialis anterior muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "tibialis anterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 3526,
+   "cx": -0.0909
+  },
+  "Tibialis posterior muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "tibialis posterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5526,
+   "cx": 0.0771
+  },
+  "Tibialis posterior muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "tibialis posterior",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 5526,
+   "cx": -0.0771
+  },
+  "Transversalis fascia": {
+   "grupo": "excluido",
+   "lado": "centro",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 4207,
+   "cx": 0.0007
+  },
+  "Transverse arytenoid muscle": {
+   "grupo": "excluido",
+   "lado": "centro",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1822,
+   "cx": -0.0008
+  },
+  "Transverse head of adductor hallucis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "adductor hallucis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 366,
+   "cx": 0.1027
+  },
+  "Transverse head of adductor hallucis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "adductor hallucis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 366,
+   "cx": -0.1027
+  },
+  "Transverse head of adductor pollicis.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "adductor pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1014,
+   "cx": 0.2857
+  },
+  "Transverse head of adductor pollicis.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "adductor pollicis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1014,
+   "cx": -0.2857
+  },
+  "Transverse intermuscular septum of leg.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 495,
+   "cx": 0.0795
+  },
+  "Transverse intermuscular septum of leg.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 495,
+   "cx": -0.0795
+  },
+  "Transverse part of trapezius muscle.l": {
+   "grupo": "espalda",
+   "lado": "izq",
+   "regla": "trapezius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2992,
+   "cx": 0.0492
+  },
+  "Transverse part of trapezius muscle.r": {
+   "grupo": "espalda",
+   "lado": "der",
+   "regla": "trapezius",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 2992,
+   "cx": -0.0492
+  },
+  "Transversus abdominis muscle.l": {
+   "grupo": "core",
+   "lado": "izq",
+   "regla": "transversus abdominis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 34328,
+   "cx": 0.0827
+  },
+  "Transversus abdominis muscle.r": {
+   "grupo": "core",
+   "lado": "der",
+   "regla": "transversus abdominis",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 34328,
+   "cx": -0.0827
+  },
+  "Transversus thoracis muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1670,
+   "cx": 0.0335
+  },
+  "Transversus thoracis muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "musculo profundo/interno sin grupo",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1670,
+   "cx": -0.0335
+  },
+  "Trapezium bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 500,
+   "cx": 0.2812
+  },
+  "Trapezium bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 500,
+   "cx": -0.2812
+  },
+  "Trapezoid bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 364,
+   "cx": 0.2753
+  },
+  "Trapezoid bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 364,
+   "cx": -0.2753
+  },
+  "Triquetrum bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 176,
+   "cx": 0.2459
+  },
+  "Triquetrum bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(capitate|hamate|lunate|pisiform|scaphoid|trapezium|trapezoid|triquetrum)",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 176,
+   "cx": -0.2459
+  },
+  "Trochanteric bursa of gluteus maximus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1317
+  },
+  "Trochanteric bursa of gluteus maximus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1317
+  },
+  "Trochanteric bursa of gluteus medius muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1391
+  },
+  "Trochanteric bursa of gluteus medius muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1391
+  },
+  "Trochanteric bursa of gluteus minimus muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": 0.1427
+  },
+  "Trochanteric bursa of gluteus minimus muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 352,
+   "cx": -0.1427
+  },
+  "Trochlea of superior oblique muscle.l": {
+   "grupo": "excluido",
+   "lado": "izq",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 192,
+   "cx": 0.0148
+  },
+  "Trochlea of superior oblique muscle.r": {
+   "grupo": "excluido",
+   "lado": "der",
+   "regla": "tejido no muscular / auxiliar",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 192,
+   "cx": -0.0148
+  },
+  "Ulnar head of extensor carpi ulnaris.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "extensor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 582,
+   "cx": 0.2311
+  },
+  "Ulnar head of extensor carpi ulnaris.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "extensor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 582,
+   "cx": -0.2311
+  },
+  "Ulnar head of flexor carpi ulnaris.l": {
+   "grupo": "antebrazos",
+   "lado": "izq",
+   "regla": "flexor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1466,
+   "cx": 0.2149
+  },
+  "Ulnar head of flexor carpi ulnaris.r": {
+   "grupo": "antebrazos",
+   "lado": "der",
+   "regla": "flexor carpi",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 1466,
+   "cx": -0.2149
+  },
+  "Vastus intermedius muscle.l": {
+   "grupo": "cuadriceps",
+   "lado": "izq",
+   "regla": "vastus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6164,
+   "cx": 0.1043
+  },
+  "Vastus intermedius muscle.r": {
+   "grupo": "cuadriceps",
+   "lado": "der",
+   "regla": "vastus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6164,
+   "cx": -0.1043
+  },
+  "Vastus lateralis muscle.l": {
+   "grupo": "cuadriceps",
+   "lado": "izq",
+   "regla": "vastus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 9356,
+   "cx": 0.1248
+  },
+  "Vastus lateralis muscle.r": {
+   "grupo": "cuadriceps",
+   "lado": "der",
+   "regla": "vastus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 9356,
+   "cx": -0.1248
+  },
+  "Vastus medialis muscle.l": {
+   "grupo": "cuadriceps",
+   "lado": "izq",
+   "regla": "vastus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6460,
+   "cx": 0.0699
+  },
+  "Vastus medialis muscle.r": {
+   "grupo": "cuadriceps",
+   "lado": "der",
+   "regla": "vastus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 6460,
+   "cx": -0.0699
+  },
+  "Ventral parts of lateral intertransversarii lumborum muscles.l": {
+   "grupo": "lumbares",
+   "lado": "izq",
+   "regla": "intertransversarii lumborum",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 996,
+   "cx": 0.0227
+  },
+  "Ventral parts of lateral intertransversarii lumborum muscles.r": {
+   "grupo": "lumbares",
+   "lado": "der",
+   "regla": "intertransversarii lumborum",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 996,
+   "cx": -0.0227
+  },
+  "Xiphoid process": {
+   "grupo": "base_huesos",
+   "lado": "centro",
+   "regla": "xiphoid",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 914,
+   "cx": 0.0
+  },
+  "Zygomatic bone.l": {
+   "grupo": "base_huesos",
+   "lado": "izq",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1328,
+   "cx": 0.0458
+  },
+  "Zygomatic bone.r": {
+   "grupo": "base_huesos",
+   "lado": "der",
+   "regla": "^(frontal|parietal|occipital|temporal|sphenoid|zygomatic|nasal) bone",
+   "coleccion": "1: Skeletal system",
+   "tris_orig": 1328,
+   "cx": -0.0458
+  },
+  "Zygomaticus major muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "zygomaticus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 798,
+   "cx": 0.0372
+  },
+  "Zygomaticus major muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "zygomaticus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 798,
+   "cx": -0.0372
+  },
+  "Zygomaticus minor muscle.l": {
+   "grupo": "base_musculos",
+   "lado": "izq",
+   "regla": "zygomaticus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 432,
+   "cx": 0.0285
+  },
+  "Zygomaticus minor muscle.r": {
+   "grupo": "base_musculos",
+   "lado": "der",
+   "regla": "zygomaticus",
+   "coleccion": "4: Muscular system",
+   "tris_orig": 432,
+   "cx": -0.0285
+  }
+ }
+}

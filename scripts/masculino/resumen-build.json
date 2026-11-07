@@ -1,0 +1,177 @@
+{
+ "total_tris": 48263,
+ "alto_original": 1.6985220909118652,
+ "escala": 1.0597448348999023,
+ "mallas": {
+  "abductores_der": {
+   "tris_antes": 11426,
+   "objetivo": 400,
+   "tris_despues": 398
+  },
+  "abductores_izq": {
+   "tris_antes": 11426,
+   "objetivo": 400,
+   "tris_despues": 398
+  },
+  "aductores_der": {
+   "tris_antes": 22906,
+   "objetivo": 1078,
+   "tris_despues": 1078
+  },
+  "aductores_izq": {
+   "tris_antes": 22906,
+   "objetivo": 1078,
+   "tris_despues": 1078
+  },
+  "antebrazos_der": {
+   "tris_antes": 72215,
+   "objetivo": 1541,
+   "tris_despues": 1540
+  },
+  "antebrazos_izq": {
+   "tris_antes": 72215,
+   "objetivo": 1541,
+   "tris_despues": 1540
+  },
+  "base_huesos": {
+   "tris_antes": 49397,
+   "objetivo": 1488,
+   "tris_despues": 1487
+  },
+  "base_huesos_der": {
+   "tris_antes": 56296,
+   "objetivo": 1752,
+   "tris_despues": 1752
+  },
+  "base_huesos_izq": {
+   "tris_antes": 56404,
+   "objetivo": 1759,
+   "tris_despues": 1758
+  },
+  "base_musculos_der": {
+   "tris_antes": 277295,
+   "objetivo": 4999,
+   "tris_despues": 4998
+  },
+  "base_musculos_izq": {
+   "tris_antes": 277295,
+   "objetivo": 5000,
+   "tris_despues": 4998
+  },
+  "biceps_der": {
+   "tris_antes": 10552,
+   "objetivo": 496,
+   "tris_despues": 496
+  },
+  "biceps_izq": {
+   "tris_antes": 10552,
+   "objetivo": 496,
+   "tris_despues": 496
+  },
+  "core": {
+   "tris_antes": 338,
+   "objetivo": 400,
+   "tris_despues": 338
+  },
+  "core_der": {
+   "tris_antes": 114535,
+   "objetivo": 3344,
+   "tris_despues": 3343
+  },
+  "core_izq": {
+   "tris_antes": 114535,
+   "objetivo": 3344,
+   "tris_despues": 3343
+  },
+  "cuadriceps_der": {
+   "tris_antes": 30256,
+   "objetivo": 1428,
+   "tris_despues": 1428
+  },
+  "cuadriceps_izq": {
+   "tris_antes": 30256,
+   "objetivo": 1428,
+   "tris_despues": 1428
+  },
+  "espalda_der": {
+   "tris_antes": 62451,
+   "objetivo": 2223,
+   "tris_despues": 2223
+  },
+  "espalda_izq": {
+   "tris_antes": 62451,
+   "objetivo": 2223,
+   "tris_despues": 2223
+  },
+  "femorales_der": {
+   "tris_antes": 21492,
+   "objetivo": 998,
+   "tris_despues": 998
+  },
+  "femorales_izq": {
+   "tris_antes": 21492,
+   "objetivo": 998,
+   "tris_despues": 998
+  },
+  "gluteos_der": {
+   "tris_antes": 11611,
+   "objetivo": 627,
+   "tris_despues": 626
+  },
+  "gluteos_izq": {
+   "tris_antes": 11611,
+   "objetivo": 627,
+   "tris_despues": 626
+  },
+  "hombros_der": {
+   "tris_antes": 17792,
+   "objetivo": 796,
+   "tris_despues": 796
+  },
+  "hombros_izq": {
+   "tris_antes": 17792,
+   "objetivo": 796,
+   "tris_despues": 796
+  },
+  "lumbares_der": {
+   "tris_antes": 54512,
+   "objetivo": 1325,
+   "tris_despues": 1324
+  },
+  "lumbares_izq": {
+   "tris_antes": 54512,
+   "objetivo": 1325,
+   "tris_despues": 1324
+  },
+  "pantorrillas_der": {
+   "tris_antes": 27217,
+   "objetivo": 1022,
+   "tris_despues": 1022
+  },
+  "pantorrillas_izq": {
+   "tris_antes": 27217,
+   "objetivo": 1022,
+   "tris_despues": 1022
+  },
+  "pecho_der": {
+   "tris_antes": 9722,
+   "objetivo": 690,
+   "tris_despues": 690
+  },
+  "pecho_izq": {
+   "tris_antes": 9722,
+   "objetivo": 690,
+   "tris_despues": 690
+  },
+  "triceps_der": {
+   "tris_antes": 11706,
+   "objetivo": 504,
+   "tris_despues": 504
+  },
+  "triceps_izq": {
+   "tris_antes": 11706,
+   "objetivo": 504,
+   "tris_despues": 504
+  }
+ }
+}
